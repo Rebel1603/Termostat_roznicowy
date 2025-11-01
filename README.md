@@ -8,7 +8,7 @@ jeśli TRYB_Auto:
   jeśli Chłodzenie & (Tout < Tin - histereza) { relay ON }    // włącz wentylację gdy na polu chłodniej
   jeśli Grzanie & (Tout > Tin + histereza) { relay ON }    // włącz wentylację gdy na polu cieplej  
 jeśli TRYB_Manual:
-  jeśli Manual == OFF  { relay OFF }    // wyłącz wentylację 
+  jeśli Manual == OFF  { relay OFF }    // wyłącz wentylację ; 
   jeśli Manual == ON  { relay ON }    // włącz wentylację
 
 
