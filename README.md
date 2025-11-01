@@ -1,1 +1,2 @@
-Termostat różnicowy działający pod Supla. Porównywanie dwóch temperatur i przełaczenie przekaźnika. W zależności od trybu grzanie/chłodzenie logika jest odwrócona. W konfigu mozna ustawić histerezę różnicy temepartur co 0.1°C oraz czas przełączania przekaźnika. Tryb manualny pozwala na twarde przełaczenie ON/OFF przekaźnika na GPIO
+Termostat różnicowy działający pod Supla. Porównywanie dwóch temperatur i przełaczenie przekaźnika. W zależności od trybu grzanie/chłodzenie logika jest odwrócona. W konfigu mozna ustawić histerezę różnicy temepartur co 0.1°C oraz czas przełączania przekaźnika. Tryb manualny pozwala na twarde przełaczenie ON/OFF przekaźnika na GPIO. 
+W Folderze znajduje się kompilacja dla ESP32 Dev oraz ESP32-C3
